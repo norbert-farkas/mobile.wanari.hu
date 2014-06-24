@@ -4,10 +4,10 @@
 
 # Home page
 GET     /                           controllers.Application.index()
-GET     /1                          controllers.Application.firstPage()
-GET     /2                          controllers.Application.secondPage()
-GET     /3                          controllers.Application.thirdPage()
-GET     /4                          controllers.Application.fourthPage()
+GET     /general                    controllers.Application.general()
+GET     /startup                    controllers.Application.startup()
+GET     /advert                     controllers.Application.advert()
+GET     /enterprise                 controllers.Application.enterprise()
 POST	/sendMail					controllers.Application.sendMail()
 
 # Map static resources from the /public folder to the /assets URL path

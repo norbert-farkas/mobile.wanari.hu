@@ -4,13 +4,14 @@ import static play.data.Form.form;
 import play.Play;
 import play.data.Form;
 import play.data.validation.Constraints.Required;
+import play.i18n.Messages;
 import play.mvc.Controller;
 import play.mvc.Result;
-import views.html.advertapps;
-import views.html.corpapps;
+import views.html.advert;
+import views.html.enterprise;
 import views.html.index;
-import views.html.mobapps;
-import views.html.startupapps;
+import views.html.general;
+import views.html.startup;
 
 import com.typesafe.plugin.MailerAPI;
 import com.typesafe.plugin.MailerPlugin;
@@ -30,20 +31,20 @@ public class Application extends Controller {
 		return ok(index.render());
 	}
 
-	public static Result firstPage() {
-		return ok(mobapps.render(form(ContactForm.class)));
+	public static Result general() {
+		return ok(general.render(form(ContactForm.class)));
 	}
 
-	public static Result secondPage() {
-		return ok(startupapps.render(form(ContactForm.class)));
+	public static Result startup() {
+		return ok(startup.render(form(ContactForm.class)));
 	}
 
-	public static Result thirdPage() {
-		return ok(advertapps.render(form(ContactForm.class)));
+	public static Result advert() {
+		return ok(advert.render(form(ContactForm.class)));
 	}
 
-	public static Result fourthPage() {
-		return ok(corpapps.render(form(ContactForm.class)));
+	public static Result enterprise() {
+		return ok(enterprise.render(form(ContactForm.class)));
 	}
 
 	public static Result sendMail() {
@@ -75,10 +76,10 @@ public class Application extends Controller {
 			}
 			message.append("\n");
 			mail.send(message.toString());
-			flash("success", "E-mail elküldve, köszönjük!");
+			flash("success", Messages.get("mail.success"));
 			return redirect(routes.Application.index());
 		} else {
-			flash("error", "Kérlek javítsd a hibákat!");
+			flash("error", Messages.get("mail.error"));
 			return redirect(routes.Application.index());
 		}
 

@@ -2,6 +2,7 @@ title=WANARI mobile
 
 index.title=Mobil alkalmazás fejlesztés
 
+index.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
 index.description.1=Mobil alkalmazásokkal minden ember elérhető, a kérdés csak az, hogy az alkalmazás milyen célt szolgáljon, hogyan tudja minél jobban interaktívvá tenni ügyfeleit, felhasználóit.
 index.description.2=Egy alkalmazás kifejlesztése szoros együttműködést és rugalmasságot igényel. Csapatunk az első lépéstől az utolsóig vállalata mellett áll, hogy az ötletből kialakulhasson a megfelelő mobilos alkalmazás. 
 index.description.3=A két nagy mobil operációsrendszerhez külön-külön fejlesztünk alkalmazásokat.
@@ -12,10 +13,10 @@ index.whyworkwithus.point.2=Mert értünk hozzá,
 index.whyworkwithus.point.3=Mert könnyű velünk szót érteni,
 index.whyworkwithus.point.4=Mert elérhetőek vagyunk.
 
-index.page.1=Mobil alkalmazások általános célokra
-index.page.2=Startup-ok - Mobil fejlesztés
-index.page.3=Reklám célú (játék, információs) alkalmazások
-index.page.4=Vállalati mobil alkalmazások
+index.page.1=Általános célú alkalmazásfejlesztés
+index.page.2=Startup alkalmazásfejlesztés
+index.page.3=Reklám célú alkalmazásfejlesztés
+index.page.4=Vállalati mobil alkalmazásfejlesztés
 
 index.heading.1.title=Heading 2
 index.heading.1.description=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et risus vel dolor venenatis dictum. Aliquam blandit eros quis libero lobortis, ac fermentum mauris posuere. Duis molestie, neque in laoreet blandit, justo arcu tincidunt nulla, ut bibendum sapien massa at ipsum.
@@ -24,121 +25,72 @@ index.heading.2.description=Lorem ipsum dolor sit amet, consectetur adipiscing e
 index.heading.3.title=Heading 2
 index.heading.3.description=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et risus vel dolor venenatis dictum. Aliquam blandit eros quis libero lobortis, ac fermentum mauris posuere. Duis molestie, neque in laoreet blandit, justo arcu tincidunt nulla, ut bibendum sapien massa at ipsum.
 
-mobapps.title.big=Reklám célú /játék, információs/ alkalmazások
-mobapps.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
-mobapps.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
-mobapps.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
-mobapps.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
+general.title.big=Általános célú alkalmazásfejlesztés
+general.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
-mobapps.whyworkwithus.title=Miért érdemes velünk dolgozni?
-mobapps.whyworkwithus.point.1=- Mert gyorsak és rugalmasak vagyunk,
-mobapps.whyworkwithus.point.2=- Mert értünk hozzá,
-mobapps.whyworkwithus.point.3=- Mert könnyű velünk szót érteni,
-mobapps.whyworkwithus.point.4=- Mert elérhetőek vagyunk.
+general.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
+general.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
+general.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
+general.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
-mobapps.heading.1.title=Android fejlesztés
-mobapps.heading.1.description.1=Sokat hallani, hogy az Android alkalmazásokat a rengetegféle képernyő és eszköz miatt nehezebb elkészíteni. 5 éve fejlesztünk Android alkalmazásokat, ennyi idő alatt többek közt az is kiderült, hogy ez csak félig igaz. Az eszközök eltéréseiből eredő hibák nagy része odafigyeléssel és gondos teszteléssel elkerülhető.
-mobapps.heading.1.description.2=Ha szükséges, segítünk továbbá tabletes felületek optimalizálásában is, Google Play feltöltésben és későbbi app menedzsmentben, és a visszajelzések figyelemmel követésében is.
-mobapps.heading.2.title=IOS fejlesztés
-mobapps.heading.2.description=Az Apple az első iPhone létrehozásától fogva ügyel a felületei esztétikumára, és a magas szintű felhasználói élményre. Egy jól elkészített iPhone vagy iPad alkalmazással szemben is hasonlók a felhasználók elvárásai. Ezt elérni néha nem kis munka, de velünk könnyebb. Az alkalmazás feltöltése az App Store-ba, és segítünk még idejében elkerülni az akadályokat.
-mobapps.heading.3.title=iPhone
-mobapps.heading.3.description=A leggyakoribb IOS eszköz az iPhone, így első sorban ezekre az eszközökre készítjük az alkalmazásokat. Sokszor elég, ha az alkalmazás csak telefonon fut, de természetesen mi sem csak ebben gondolkodunk.
-mobapps.heading.4.title=iPad
-mobapps.heading.4.description=iPad-re optimalizált alkalmazást nem mindig érdemes készíteni, ha mégis, akkor ügyelünk arra, kihasználjuk a tablet adottságait.
-mobapps.heading.5.title=Mobil fejlesztés - Hogyan dolgozunk együtt
-mobapps.heading.5.description.1=Egy tipikus projekt létrejötte:
-mobapps.heading.5.description.2=1. Kapcsolatfelvétel
-mobapps.heading.5.description.3=2. A téma meghatározás (has szükséges, közös ötletelés)
-mobapps.heading.5.description.4=3. Platformok meghatározása
-mobapps.heading.5.description.5=4. Fejlesztés, közben felület véglegesítése
 
-startupapps.title.big=Reklám célú /játék, információs/ alkalmazások
-startupapps.title.small=Mobil alkalmazás fejlesztés Promóciós célra
+startup.title.big=Startup alkalmazásfejlesztés
+startup.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
-startupapps.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
-startupapps.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
-startupapps.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
+startup.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
+startup.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
+startup.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
+startup.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
-startupapps.whyworkwithus.title=Miért érdemes velünk dolgozni?
-startupapps.whyworkwithus.point.1=- Mert gyorsak és rugalmasak vagyunk,
-startupapps.whyworkwithus.point.2=- Mert értünk hozzá,
-startupapps.whyworkwithus.point.3=- Mert könnyű velünk szót érteni,
-startupapps.whyworkwithus.point.4=- Mert elérhetőek vagyunk.
 
-startupapps.heading.1.title=Android fejlesztés
-startupapps.heading.1.description.1=Sokat hallani, hogy az Android alkalmazásokat a rengetegféle képernyő és eszköz miatt nehezebb elkészíteni. 5 éve fejlesztünk Android alkalmazásokat, ennyi idő alatt többek közt az is kiderült, hogy ez csak félig igaz. Az eszközök eltéréseiből eredő hibák nagy része odafigyeléssel és gondos teszteléssel elkerülhető.
-startupapps.heading.1.description.2=Ha szükséges, segítünk továbbá tabletes felületek optimalizálásában is, Google Play feltöltésben és későbbi app menedzsmentben, és a visszajelzések figyelemmel követésében is.
-startupapps.heading.2.title=IOS fejlesztés
-startupapps.heading.2.description=Az Apple az első iPhone létrehozásától fogva ügyel a felületei esztétikumára, és a magas szintű felhasználói élményre. Egy jól elkészített iPhone vagy iPad alkalmazással szemben is hasonlók a felhasználók elvárásai. Ezt elérni néha nem kis munka, de velünk könnyebb. Az alkalmazás feltöltése az App Store-ba, és segítünk még idejében elkerülni az akadályokat.
-startupapps.heading.3.title=iPhone
-startupapps.heading.3.description=A leggyakoribb IOS eszköz az iPhone, így első sorban ezekre az eszközökre készítjük az alkalmazásokat. Sokszor elég, ha az alkalmazás csak telefonon fut, de természetesen mi sem csak ebben gondolkodunk.
-startupapps.heading.4.title=iPad
-startupapps.heading.4.description=iPad-re optimalizált alkalmazást nem mindig érdemes készíteni, ha mégis, akkor ügyelünk arra, kihasználjuk a tablet adottságait.
-startupapps.heading.5.title=Mobil fejlesztés - Hogyan dolgozunk együtt
-startupapps.heading.5.description.1=Egy tipikus projekt létrejötte:
-startupapps.heading.5.description.2=1. Kapcsolatfelvétel
-startupapps.heading.5.description.3=2. A téma meghatározás (has szükséges, közös ötletelés)
-startupapps.heading.5.description.4=3. Platformok meghatározása
-startupapps.heading.5.description.5=4. Fejlesztés, közben felület véglegesítése
+advert.title.big=Reklám célú alkalmazásfejlesztés
+advert.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
-advertapps.title.big=Reklám célú /játék, információs/ alkalmazások
-advertapps.title.small=Mobil alkalmazás fejlesztés Promóciós célra
+advert.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
+advert.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt adjon a vállalatról és annak termékeiről, szolgáltatásairól.
+advert.description.2=Az ilyen appok előnye, hogy az ügyfél “játékosan” ismerkedik meg a céggel és tapasztalatait meg is osztja a saját ismerőseivel. Alkalmasak továbbá a hirdetésre - mérhető a letöltés, alkalmazás-használat, stb.
+advert.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
-advertapps.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
-advertapps.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
-advertapps.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
-advertapps.whyworkwithus.title=Miért érdemes velünk dolgozni?
-advertapps.whyworkwithus.point.1=- Mert gyorsak és rugalmasak vagyunk,
-advertapps.whyworkwithus.point.2=- Mert értünk hozzá,
-advertapps.whyworkwithus.point.3=- Mert könnyű velünk szót érteni,
-advertapps.whyworkwithus.point.4=- Mert elérhetőek vagyunk.
+enterprise.title.big=Vállalati mobil alkalmazásfejlesztés
+enterprise.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
-advertapps.heading.1.title=Android fejlesztés
-advertapps.heading.1.description.1=Sokat hallani, hogy az Android alkalmazásokat a rengetegféle képernyő és eszköz miatt nehezebb elkészíteni. 5 éve fejlesztünk Android alkalmazásokat, ennyi idő alatt többek közt az is kiderült, hogy ez csak félig igaz. Az eszközök eltéréseiből eredő hibák nagy része odafigyeléssel és gondos teszteléssel elkerülhető.
-advertapps.heading.1.description.2=Ha szükséges, segítünk továbbá tabletes felületek optimalizálásában is, Google Play feltöltésben és későbbi app menedzsmentben, és a visszajelzések figyelemmel követésében is.
-advertapps.heading.2.title=IOS fejlesztés
-advertapps.heading.2.description=Az Apple az első iPhone létrehozásától fogva ügyel a felületei esztétikumára, és a magas szintű felhasználói élményre. Egy jól elkészített iPhone vagy iPad alkalmazással szemben is hasonlók a felhasználók elvárásai. Ezt elérni néha nem kis munka, de velünk könnyebb. Az alkalmazás feltöltése az App Store-ba, és segítünk még idejében elkerülni az akadályokat.
-advertapps.heading.3.title=iPhone
-advertapps.heading.3.description=A leggyakoribb IOS eszköz az iPhone, így első sorban ezekre az eszközökre készítjük az alkalmazásokat. Sokszor elég, ha az alkalmazás csak telefonon fut, de természetesen mi sem csak ebben gondolkodunk.
-advertapps.heading.4.title=iPad
-advertapps.heading.4.description=iPad-re optimalizált alkalmazást nem mindig érdemes készíteni, ha mégis, akkor ügyelünk arra, kihasználjuk a tablet adottságait.
-advertapps.heading.5.title=Mobil fejlesztés - Hogyan dolgozunk együtt
-advertapps.heading.5.description.1=Egy tipikus projekt létrejötte:
-advertapps.heading.5.description.2=1. Kapcsolatfelvétel
-advertapps.heading.5.description.3=2. A téma meghatározás (has szükséges, közös ötletelés)
-advertapps.heading.5.description.4=3. Platformok meghatározása
-advertapps.heading.5.description.5=4. Fejlesztés, közben felület véglegesítése
+enterprise.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
+enterprise.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
+enterprise.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
+enterprise.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
-corpapps.title.big=Reklám célú /játék, információs/ alkalmazások
-corpapps.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
-corpapps.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
-corpapps.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
-corpapps.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
+common.whyworkwithus.title=Miért érdemes velünk dolgozni?
+common.whyworkwithus.point.1=- Mert gyorsak és rugalmasak vagyunk,
+common.whyworkwithus.point.2=- Mert értünk hozzá,
+common.whyworkwithus.point.3=- Mert könnyű velünk szót érteni,
+common.whyworkwithus.point.4=- Mert elérhetőek vagyunk.
 
-corpapps.whyworkwithus.title=Miért érdemes velünk dolgozni?
-corpapps.whyworkwithus.point.1=- Mert gyorsak és rugalmasak vagyunk,
-corpapps.whyworkwithus.point.2=- Mert értünk hozzá,
-corpapps.whyworkwithus.point.3=- Mert könnyű velünk szót érteni,
-corpapps.whyworkwithus.point.4=- Mert elérhetőek vagyunk.
+common.heading.1.title=Android fejlesztés
+common.heading.1.description.1=Sokat hallani, hogy az Android alkalmazásokat a rengetegféle képernyő és eszköz miatt nehezebb elkészíteni. 5 éve fejlesztünk Android alkalmazásokat, ennyi idő alatt többek közt az is kiderült, hogy ez csak félig igaz. Az eszközök eltéréseiből eredő hibák nagy része odafigyeléssel és gondos teszteléssel elkerülhető.
+common.heading.1.description.2=Ha szükséges, segítünk továbbá tabletes felületek optimalizálásában is, Google Play feltöltésben és későbbi app menedzsmentben, és a visszajelzések figyelemmel követésében is.
+common.heading.2.title=IOS fejlesztés
+common.heading.2.description.1=Az Apple az első iPhone létrehozásától fogva ügyel a felületei esztétikumára, és a magas szintű felhasználói élményre. Egy jól elkészített iPhone vagy iPad alkalmazással szemben is hasonlók a felhasználók elvárásai. Ezt elérni néha nem kis munka, de velünk könnyebb.
+common.heading.2.description.2=Ha kell, egyengetjük az utat az App Store-ba, segítünk elkerülni a felesleges akadályokat.
+common.heading.3.title=iPhone
+common.heading.3.description=A leggyakoribb IOS eszköz az iPhone, így elsősorban ezekre az eszközökre készítjük az alkalmazásokat. Sokszor elég, ha az alkalmazás csak telefonon fut, de természetesen mi sem csak ebben gondolkodunk.
+common.heading.4.title=iPad
+common.heading.4.description=Egy alkalmazás iPad-re optimalizált verziójának elkészítése néha komoly plusz költséget és időt jelenthet. Ilyen alkalmazást akkor érdemes készíteni, ha az kihasználja a tablet előnyeit. Ügyelünk rá, hogy az általunk szállított iPad alkalmazások ilyenek legyenek.
+common.heading.5.title=Mobil fejlesztés - Hogyan dolgozunk együtt
+common.heading.5.description.1=Hogyan fogunk együtt dolgozni?
+common.heading.5.description.2=1. Kapcsolatfelvétel
+common.heading.5.description.3=2. A téma meghatározás (ha szükséges, közös ötletelés)
+common.heading.5.description.4=3. Platformok meghatározása (iOS / Android / mindkettő)
+common.heading.5.description.5=4. Képernyők meghatározása (telefon / tablet / mindkettő)
+common.heading.5.description.6=5. Brief és scope összeállítása
+common.heading.5.description.7=6. Wireframe
+common.heading.5.description.8=7. Fejlesztés, közben felület véglegesítése
+common.heading.5.description.9=8. Fejlesztői és felhasználói tesztek
+common.heading.5.description.10=9. Végső simítások
+common.heading.5.description.11=Hosszadalmasnak tűnik? Nem feltétlenül lesz az. Hatékony együttműködéssel egy kisebb alkalmazás akár hetek alatt is elkészülhet!
 
-corpapps.heading.1.title=Android fejlesztés
-corpapps.heading.1.description.1=Sokat hallani, hogy az Android alkalmazásokat a rengetegféle képernyő és eszköz miatt nehezebb elkészíteni. 5 éve fejlesztünk Android alkalmazásokat, ennyi idő alatt többek közt az is kiderült, hogy ez csak félig igaz. Az eszközök eltéréseiből eredő hibák nagy része odafigyeléssel és gondos teszteléssel elkerülhető.
-corpapps.heading.1.description.2=Ha szükséges, segítünk továbbá tabletes felületek optimalizálásában is, Google Play feltöltésben és későbbi app menedzsmentben, és a visszajelzések figyelemmel követésében is.
-corpapps.heading.2.title=IOS fejlesztés
-corpapps.heading.2.description=Az Apple az első iPhone létrehozásától fogva ügyel a felületei esztétikumára, és a magas szintű felhasználói élményre. Egy jól elkészített iPhone vagy iPad alkalmazással szemben is hasonlók a felhasználók elvárásai. Ezt elérni néha nem kis munka, de velünk könnyebb. Az alkalmazás feltöltése az App Store-ba, és segítünk még idejében elkerülni az akadályokat.
-corpapps.heading.3.title=iPhone
-corpapps.heading.3.description=A leggyakoribb IOS eszköz az iPhone, így első sorban ezekre az eszközökre készítjük az alkalmazásokat. Sokszor elég, ha az alkalmazás csak telefonon fut, de természetesen mi sem csak ebben gondolkodunk.
-corpapps.heading.4.title=iPad
-corpapps.heading.4.description=iPad-re optimalizált alkalmazást nem mindig érdemes készíteni, ha mégis, akkor ügyelünk arra, kihasználjuk a tablet adottságait.
-corpapps.heading.5.title=Mobil fejlesztés - Hogyan dolgozunk együtt
-corpapps.heading.5.description.1=Egy tipikus projekt létrejötte:
-corpapps.heading.5.description.2=1. Kapcsolatfelvétel
-corpapps.heading.5.description.3=2. A téma meghatározás (has szükséges, közös ötletelés)
-corpapps.heading.5.description.4=3. Platformok meghatározása
-corpapps.heading.5.description.5=4. Fejlesztés, közben felület véglegesítése
 
 mail.title=Kapcsolat
 mail.name=Név:
@@ -148,16 +100,19 @@ mail.email.placeholder=bela@kiss.com
 mail.phonenumber=Telefonszám:
 mail.phonenumber.placeholder=+36 30 123 4567
 mail.topic=Téma:
-mail.topic.descr.1=Érdeklődöm
-mail.topic.descr.2=Ajánlatot kérek
-mail.topic.descr.3=Problémám van
-mail.channel=Csatorna:
-mail.channel.descr.1=Telefonos visszahívást kérek!
-mail.channel.descr.2=Emailben kérek választ.
+mail.topic.descr.1=Vállalati mobil alkalmazás
+mail.topic.descr.2=Reklám célú alkalmazás
+mail.topic.descr.3=Általános célú alkalmazás
+mail.topic.descr.4=Startup alkalmazás
+mail.channel=Így kérek választ:
+mail.channel.descr.1=Telefonos visszahívás
+mail.channel.descr.2=E-mail-es válasz
 mail.message=Üzenet:
 mail.submit=Elküldöm az üzenetem
+mail.success=E-mail-jét továbbítottuk, köszönjük a megkeresést!
+mail.error=Kérem, javítsa a hibákat!
 
 mail.validation.required=Kötelező
 mail.validation.email=Az e-mail cím formátuma nem megfelelő!
 
-footer=2000-2014 Wanari
+footer=© 2000-2014 Wanari

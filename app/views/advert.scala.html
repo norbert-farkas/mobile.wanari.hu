@@ -1,112 +1,132 @@
 @(form: Form[Application.ContactForm])
-@main(title = Messages("title")) {
-<div class="lightgreenheader">
+@main(description = Messages("advert.description.meta"))(title = Messages("advert.title.big")) {
+<div class="blueheader">
   <h1>
-   @Messages("startupapps.title.big")
+   @Messages("advert.title.big")
   </h1>
 </div>
 
 <div class="container text-center subpage">
-  <img src="@routes.Assets.at("images/subicon_02.png")" class="subicon">
-  <h1 class="lightgreenheading">
-    @Messages("startupapps.title.small")
+  <img src="@routes.Assets.at("images/subicon_03.png")" class="subicon">
+  <h1 class="blueheading" title="Alkalmazás fejlesztés">
+    @Messages("advert.title.small")
   </h1>
   <p>
-    @Messages("startupapps.description.1") 
+    @Messages("advert.description.1") 
   </p>
   <p>
-	@Messages("startupapps.description.2")
+	@Messages("advert.description.2")
   </p>
   
   <h3>
-    @Messages("startupapps.whyworkwithus.title")
+    @Messages("common.whyworkwithus.title")
   </h3>
   <ul class="mylist">
     <li>
-      @Messages("startupapps.whyworkwithus.point.1")
+      @Messages("common.whyworkwithus.point.1")
     </li>
     <li>
-      @Messages("startupapps.whyworkwithus.point.2")
+      @Messages("common.whyworkwithus.point.2")
     </li>
     <li>
-      @Messages("startupapps.whyworkwithus.point.3")
+      @Messages("common.whyworkwithus.point.3")
     </li>
     <li>
-      @Messages("startupapps.whyworkwithus.point.4")
+      @Messages("common.whyworkwithus.point.4")
     </li>
   </ul>
   <p>
-    @Messages("startupapps.description.3")
+    @Messages("common.description.3")
   </p>
 </div>
 
 <div class="container subpage">
   <div class="row">
     <div class="col-md-3">
-      <H2 title=”Android fejlesztõ” class="solutionheading">
-        @Messages("startupapps.heading.1.title")
+      <H2 title="Android fejlesztõ" class="solutionheading">
+        @Messages("common.heading.1.title")
       </H2>
       <p>
-        @Messages("startupapps.heading.1.description.1")
+        @Messages("common.heading.1.description.1")
       </p>
       <p>
-        @Messages("startupapps.heading.1.description.2")
+        @Messages("common.heading.1.description.2")
       </p>
     </div>
     
     <div class="col-md-3">
-      <H2 title=”IOS fejlesztõ” class="solutionheading">
-        @Messages("startupapps.heading.2.title")
+      <H2 title="IOS fejlesztõ" class="solutionheading">
+        @Messages("common.heading.2.title")
       </H2>
       <p>
-        @Messages("startupapps.heading.2.description") 
+        @Messages("common.heading.2.description.1") 
+      </p>
+            <p>
+        @Messages("common.heading.2.description.2") 
       </p>
     </div>
     
     <div class="col-md-3">
-      <H3 title=”Iphone fejlesztõ” class="solutionheading">
-        @Messages("startupapps.heading.3.title")
+      <H3 title="Iphone fejlesztõ" class="solutionheading">
+        @Messages("common.heading.3.title")
       </H3>
       <p>
-        @Messages("startupapps.heading.3.description") 
+        @Messages("common.heading.3.description") 
       </p>
       
-      <H3 title=”Ipad fejlesztõ” class="solutionheading">
-        @Messages("startupapps.heading.4.title")
+      <H3 title="Ipad fejlesztõ" class="solutionheading">
+        @Messages("common.heading.4.title")
       </H3>
       <p>
-        @Messages("startupapps.heading.4.description")
+        @Messages("common.heading.4.description")
       </p>
     </div>
     
     <div class="col-md-3">
-      <H2 title=”App fejlesztés” class="solutionheading">
-        @Messages("startupapps.heading.5.title")
+      <H2 title="App fejlesztõ" class="solutionheading">
+        @Messages("common.heading.5.title")
       </H2>
       <p>
-        @Messages("startupapps.heading.5.description.1")
+        @Messages("common.heading.5.description.1")
       </p>
       <ul class="mylist">
         <li>
-          @Messages("startupapps.heading.5.description.2")
+          @Messages("common.heading.5.description.2")
         </li>
         <li>
-          @Messages("startupapps.heading.5.description.3")
+          @Messages("common.heading.5.description.3")
         </li>
         <li>
-          @Messages("startupapps.heading.5.description.4")
+          @Messages("common.heading.5.description.4")
         </li>
         <li>
-          @Messages("startupapps.heading.5.description.5")
+          @Messages("common.heading.5.description.5")
+        </li>
+        <li>
+          @Messages("common.heading.5.description.6")
+        </li>
+        <li>
+          @Messages("common.heading.5.description.7")
+        </li>
+        <li>
+          @Messages("common.heading.5.description.8")
+        </li>
+        <li>
+          @Messages("common.heading.5.description.9")
+        </li>
+        <li>
+          @Messages("common.heading.5.description.10")
         </li>
       </ul>
-      
+      <p>
+        @Messages("common.heading.5.description.11")
+      </p>      
     </div>
     
   </div>
 </div>
 <div class="container text-center">  
-  <h1 class="lightgreenheading">    
+  <h1 class="blueheading">    
     @Messages("mail.title")	        
   </h1>
 </div>
@@ -138,11 +158,11 @@
           <label for="channel">
             @Messages("mail.channel")
           </label>
-          <select class="form-control" name="channel">
-            <option>
+          <select id="mySelectBox" class="form-control" name="channel">
+            <option value="phone">
               @Messages("mail.channel.descr.1")
             </option>
-            <option>
+            <option value="email">
               @Messages("mail.channel.descr.2")
             </option>
           </select>
@@ -156,11 +176,14 @@
             <option>
               @Messages("mail.topic.descr.1")
             </option>
-            <option>
+            <option selected="selected">
               @Messages("mail.topic.descr.2")
             </option>
             <option>
               @Messages("mail.topic.descr.3")
+            </option>
+            <option>
+              @Messages("mail.topic.descr.4")
             </option>
           </select>
         </div>
@@ -176,10 +199,13 @@
     </div>
   </div>
   <div class="container text-center">
-    <button type="submit" class="btn btn-lightgreen btn-lg">
+    <button type="submit" class="btn btn-blue btn-lg">
       @Messages("mail.submit")
     </button>    
   </div>
 </form>
+<div class="footer footer-subpage">
+   @Messages("footer")
+</div>
 }
 }

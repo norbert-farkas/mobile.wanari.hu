@@ -1,0 +1,105 @@
+@main(title = Messages("title")) {
+<div id="header">
+  <div class="container">
+    <h1>
+      @Messages("index.title")
+    </h1>
+    <p>
+      @Messages("index.description.1")
+    </p>
+    <p>
+      @Messages("index.description.2")
+    </p>
+    <div class="frame">
+      <p class="frame-title">
+        @Messages("index.whyworkwithus.title")
+      </p>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            @Messages("index.whyworkwithus.point.1")
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>
+            @Messages("index.whyworkwithus.point.2")
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            @Messages("index.whyworkwithus.point.3")
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>
+            @Messages("index.whyworkwithus.point.4")
+          </p>
+        </div>
+      </div>
+    </div>
+    <p>
+      @Messages("index.description.3")
+    </p>
+  </div>
+</div>
+
+<div class="container solution">
+  
+  <div class="row">
+    <div class="col-md-3 green">
+      <a href="@routes.Application.firstPage()">
+        @Messages("index.page.1")
+      </a>
+    </div>
+    <div class="col-md-3 lightgreen">
+      <a href="@routes.Application.secondPage()">
+        @Messages("index.page.2")
+      </a>
+    </div>
+    <div class="col-md-3 blue">
+      <a href="@routes.Application.thirdPage()">
+        @Messages("index.page.3")
+      </a>
+    </div>
+    <div class="col-md-3 coral">
+      <a href="@routes.Application.fourthPage()">
+        @Messages("index.page.4")
+      </a>
+    </div>
+  </div>
+  
+</div>
+
+<!-- /container -->
+
+<div class="container ww">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>
+        @Messages("index.heading.1.title")
+      </h2>
+      <p>
+        @Messages("index.heading.1.description")
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h3>
+        @Messages("index.heading.2.title")
+      </h3>
+      <p>
+        @Messages("index.heading.2.description")
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h2>
+        @Messages("index.heading.3.title")
+      </h2>
+      <p>
+        @Messages("index.heading.3.description")
+      </p>
+    </div>
+  </div>
+</div>
+}

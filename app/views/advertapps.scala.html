@@ -1,0 +1,185 @@
+@(form: Form[Application.ContactForm])
+@main(title = Messages("title")) {
+<div class="blueheader">
+  <h1>
+   @Messages("advertapps.title.big")
+  </h1>
+</div>
+
+<div class="container text-center subpage">
+  <img src="@routes.Assets.at("images/subicon_03.png")" class="subicon">
+  <h1 class="blueheading">
+    @Messages("advertapps.title.small")
+  </h1>
+  <p>
+    @Messages("advertapps.description.1") 
+  </p>
+  <p>
+	@Messages("advertapps.description.2")
+  </p>
+  
+  <h3>
+    @Messages("advertapps.whyworkwithus.title")
+  </h3>
+  <ul class="mylist">
+    <li>
+      @Messages("advertapps.whyworkwithus.point.1")
+    </li>
+    <li>
+      @Messages("advertapps.whyworkwithus.point.2")
+    </li>
+    <li>
+      @Messages("advertapps.whyworkwithus.point.3")
+    </li>
+    <li>
+      @Messages("advertapps.whyworkwithus.point.4")
+    </li>
+  </ul>
+  <p>
+    @Messages("advertapps.description.3")
+  </p>
+</div>
+
+<div class="container subpage">
+  <div class="row">
+    <div class="col-md-3">
+      <H2 title=”Android fejlesztõ” class="solutionheading">
+        @Messages("advertapps.heading.1.title")
+      </H2>
+      <p>
+        @Messages("advertapps.heading.1.description.1")
+      </p>
+      <p>
+        @Messages("advertapps.heading.1.description.2")
+      </p>
+    </div>
+    
+    <div class="col-md-3">
+      <H2 title=”IOS fejlesztõ” class="solutionheading">
+        @Messages("advertapps.heading.2.title")
+      </H2>
+      <p>
+        @Messages("advertapps.heading.2.description") 
+      </p>
+    </div>
+    
+    <div class="col-md-3">
+      <H3 title=”Iphone fejlesztõ” class="solutionheading">
+        @Messages("advertapps.heading.3.title")
+      </H3>
+      <p>
+        @Messages("advertapps.heading.3.description") 
+      </p>
+      
+      <H3 title=”Ipad fejlesztõ” class="solutionheading">
+        @Messages("advertapps.heading.4.title")
+      </H3>
+      <p>
+        @Messages("advertapps.heading.4.description")
+      </p>
+    </div>
+    
+    <div class="col-md-3">
+      <H2 title=”App fejlesztés” class="solutionheading">
+        @Messages("advertapps.heading.5.title")
+      </H2>
+      <p>
+        @Messages("advertapps.heading.5.description.1")
+      </p>
+      <ul class="mylist">
+        <li>
+          @Messages("advertapps.heading.5.description.2")
+        </li>
+        <li>
+          @Messages("advertapps.heading.5.description.3")
+        </li>
+        <li>
+          @Messages("advertapps.heading.5.description.4")
+        </li>
+        <li>
+          @Messages("advertapps.heading.5.description.5")
+        </li>
+      </ul>
+      
+    </div>
+    
+  </div>
+</div>
+<div class="container text-center">  
+  <h1 class="blueheading">    
+    @Messages("mail.title")	        
+  </h1>
+</div>
+@helper.form(routes.Application.sendMail(), 'role -> "form", 'id -> "frmSendMail") {
+<form role="form" id="frmSendMail">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="name">
+            @Messages("mail.name")
+          </label>
+          <input class="form-control" id="name" name="name" placeholder="@Messages("mail.name.placeholder")">
+        </div>
+        <div class="form-group">
+          <label for="email">
+            @Messages("mail.email")
+          </label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="@Messages("mail.email.placeholder")">
+        </div>
+        <div class="form-group">
+          <label for="phonenumber">
+            @Messages("mail.phonenumber")
+          </label>
+          <input class="form-control" id="phonenumber" name="phonenumber" placeholder="@Messages("mail.phonenumber.placeholder")">
+        </div>
+        
+        <div class="form-group">
+          <label for="channel">
+            @Messages("mail.channel")
+          </label>
+          <select class="form-control" name="channel">
+            <option>
+              @Messages("mail.channel.descr.1")
+            </option>
+            <option>
+              @Messages("mail.channel.descr.2")
+            </option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="topic">
+            @Messages("mail.topic")
+          </label>
+          <select class="form-control" name="topic">
+            <option>
+              @Messages("mail.topic.descr.1")
+            </option>
+            <option>
+              @Messages("mail.topic.descr.2")
+            </option>
+            <option>
+              @Messages("mail.topic.descr.3")
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="message">
+            @Messages("mail.message")
+          </label>
+          <textarea class="form-control" rows="16" name="message"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <button type="submit" class="btn btn-blue btn-lg">
+      @Messages("mail.submit")
+    </button>    
+  </div>
+</form>
+}
+}

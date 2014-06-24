@@ -1,0 +1,144 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>@title
+    </title>
+    <!-- Bootstrap core CSS -->
+    <link href="@routes.Assets.at("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <link rel="stylesheet" href="@routes.Assets.at("stylesheets/bootstrapValidator.min.css")"/>
+    
+    <!-- Custom styles for this template -->
+    <link href="@routes.Assets.at("stylesheets/mystyle.css")" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+    <script src="@routes.Assets.at("javascripts/hello.js")" type="text/javascript"></script>
+    <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+    <script src="@routes.Assets.at("javascripts/noty/jquery.noty.js")" type="text/javascript"></script>
+	<script src="@routes.Assets.at("javascripts/noty/layouts/top.js")" type="text/javascript"></script>
+	<script src="@routes.Assets.at("javascripts/noty/layouts/center.js")" type="text/javascript"></script>
+	<script src="@routes.Assets.at("javascripts/noty/layouts/bottom.js")" type="text/javascript"></script>
+	<script src="@routes.Assets.at("javascripts/noty/layouts/bottomCenter.js")" type="text/javascript"></script>
+	<script src="@routes.Assets.at("javascripts/noty/themes/default.js")" type="text/javascript"></script>
+	<script src="@routes.Assets.at("javascripts/bootstrapValidator.min.js")" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="top">
+      <a href="@routes.Application.index()" title="Wanari mobile" class="logo">
+        <img src="@routes.Assets.at("images/logo.png")">
+      </a>
+      </div>
+      			        @if(flash.contains("success")) {
+			        	<script type="text/javascript">
+						noty({
+							layout: 'top',
+							type: 'success',
+							text: '@flash.get("success")',
+							timeout: 1500
+						});
+			        	</script>
+					}
+			        @if(flash.contains("warning")) {
+			        	<script type="text/javascript">
+						noty({
+							layout: 'top',
+							type: 'warning',
+							text: '@flash.get("warning")',
+							timeout: 1500
+						});
+			        	</script>
+					}
+			        @if(flash.contains("confirm")) {
+			        	<script type="text/javascript">
+						noty({
+							layout: 'top',
+							type: 'confirm',
+							text: '@flash.get("confirm")',
+							modal: true,
+							buttons: [
+								{
+									addClass: 'btn btn-primary', text: '&{'ok'}', onClick: function($noty) {
+										$noty.close();
+										@flash.get("okaction");
+									}
+								},
+								{
+									addClass: 'btn btn-danger', text: '&{'cancel'}', onClick: function($noty) {
+										$noty.close();
+										@flash.get("cancelaction");
+									}
+								}
+							]
+						});
+			        	</script>
+					}
+			        @if(flash.contains("error")) {
+			        	<script type="text/javascript">
+						noty({
+							layout: 'top',
+							type: 'error',
+							text: '@flash.get("error")',
+							timeout: 1500
+						});
+			        	</script>
+					}
+			        @if(flash.contains("errorPermanent")) {
+			        	<script type="text/javascript">
+						noty({
+							layout: 'top',
+							type: 'error',
+							text: '@flash.get("errorPermanent")',
+						});
+			        	</script>
+					}
+     @content
+      
+      <div class="footer">
+        © @Messages("footer")
+      </div>
+      
+      <!-- Bootstrap core JavaScript
+================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="@routes.Assets.at("javascripts/bootstrap.min.js")">
+      </script>
+      <script>
+$(document).ready(function() {
+    $('#frmSendMail').bootstrapValidator({
+        fields: {
+            name: {
+                validators: {
+                    notEmpty: {
+                        message: '@Messages("mail.validation.required")'
+                    }
+                }
+            },
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: '@Messages("mail.validation.required")'
+                    },
+                    emailAddress: {
+                        message: '@Messages("mail.validation.email")'
+                    }
+                }
+            },
+            message: {
+                validators: {
+                    notEmpty: {
+                        message: '@Messages("mail.validation.required")'
+                    }
+                }
+            }
+        }
+    });
+});
+</script>
+  </body>
+</html>

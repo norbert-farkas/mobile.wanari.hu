@@ -20,7 +20,12 @@ public class Application extends Controller {
 	private static final Form<ContactForm> FORM = form(ContactForm.class);
 
 	public static Result index() {
-		Language.setLang(Language.LANGUAGE_HU);
+		String url = routes.Application.index().absoluteURL(request());
+		if(url.contains(".com")) {
+			Language.setLang(Language.LANGUAGE_EN);
+		} else {
+			Language.setLang(Language.LANGUAGE_HU);
+		}
 		changeLang(Language.getLang());
 		return ok(index.render());
 	}

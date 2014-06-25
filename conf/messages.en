@@ -2,6 +2,8 @@ title=WANARI mobile
 
 index.title=Mobile application development
 
+index.title=Mobil alkalmazás fejlesztés
+
 index.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
 index.description.1=Mobil alkalmazásokkal minden ember elérhető, a kérdés csak az, hogy az alkalmazás milyen célt szolgáljon, hogyan tudja minél jobban interaktívvá tenni ügyfeleit, felhasználóit.
 index.description.2=Egy alkalmazás kifejlesztése szoros együttműködést és rugalmasságot igényel. Csapatunk az első lépéstől az utolsóig vállalata mellett áll, hogy az ötletből kialakulhasson a megfelelő mobilos alkalmazás. 
@@ -32,7 +34,6 @@ general.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 general.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
 general.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
 general.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
-general.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
 
 startup.title.big=Startup alkalmazásfejlesztés
@@ -41,7 +42,6 @@ startup.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 startup.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
 startup.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
 startup.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
-startup.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
 
 advert.title.big=Reklám célú alkalmazásfejlesztés
@@ -50,7 +50,6 @@ advert.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 advert.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
 advert.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt adjon a vállalatról és annak termékeiről, szolgáltatásairól.
 advert.description.2=Az ilyen appok előnye, hogy az ügyfél “játékosan” ismerkedik meg a céggel és tapasztalatait meg is osztja a saját ismerőseivel. Alkalmasak továbbá a hirdetésre - mérhető a letöltés, alkalmazás-használat, stb.
-advert.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
 
 enterprise.title.big=Vállalati mobil alkalmazásfejlesztés
@@ -59,7 +58,6 @@ enterprise.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 enterprise.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
 enterprise.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
 enterprise.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
-enterprise.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
 
 common.whyworkwithus.title=Miért érdemes velünk dolgozni?
@@ -67,6 +65,7 @@ common.whyworkwithus.point.1=- Mert gyorsak és rugalmasak vagyunk,
 common.whyworkwithus.point.2=- Mert értünk hozzá,
 common.whyworkwithus.point.3=- Mert könnyű velünk szót érteni,
 common.whyworkwithus.point.4=- Mert elérhetőek vagyunk.
+common.description.3=Foglalkozunk mind a két nagy mobil operációsrendszerhez alkalmazások fejlesztésével. Így nem kell azon gondolkodnia, hogy a felhasználók melyik esetben vannak többségben.
 
 common.heading.1.title=Android fejlesztés
 common.heading.1.description.1=Sokat hallani, hogy az Android alkalmazásokat a rengetegféle képernyő és eszköz miatt nehezebb elkészíteni. 5 éve fejlesztünk Android alkalmazásokat, ennyi idő alatt többek közt az is kiderült, hogy ez csak félig igaz. Az eszközök eltéréseiből eredő hibák nagy része odafigyeléssel és gondos teszteléssel elkerülhető.

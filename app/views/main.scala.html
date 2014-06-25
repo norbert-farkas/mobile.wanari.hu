@@ -121,8 +121,9 @@ $(document).ready(function() {
                	 callback: {
                      message: '@Messages("mail.validation.required")',
                      callback: function(value, validator) {
-                         var selected_option = $('#mySelectBox').val();                               
-                         return (selected_option == 'email' && value != '') || selected_option == 'phone';
+                         var selected_option = $('#mySelectBox').val();                           
+                         validator.updateStatus('channel', 'VALID');
+                         return (selected_option == 'E-mail' && value != '') || selected_option == 'Telefon';
                      }
                  },
                  emailAddress: {message: '@Messages("mail.validation.email")'}
@@ -140,11 +141,26 @@ $(document).ready(function() {
                 	 callback: {
                          message: '@Messages("mail.validation.required")',
                          callback: function(value, validator) {
-                             var selected_option = $('#mySelectBox').val();                                               
-                             return (selected_option == 'phone' && value != '') || selected_option == 'email';
+                             var selected_option = $('#mySelectBox').val();
+                             validator.updateStatus('channel', 'VALID');
+                             return (selected_option == 'Telefon' && value != '') || selected_option == 'E-mail';
                          }
                      }
                 }
+            },
+            channel: {
+                validators: {
+               	 callback: {
+                        message: 'Nincs kitöltve a megfelelő mező!',
+                        callback: function(value, validator) {
+                        	var phone_value = $('#phonenumber').val();
+                        	var email_value = $('#email').val();
+                        	validator.updateStatus('phonenumber', 'VALID');
+                        	validator.updateStatus('email', 'VALID');
+                            return (value == 'Telefon' && phone_value != '') || (value == 'E-mail' && email_value != '');
+                        }
+                    }
+               }
             }
         }
     });

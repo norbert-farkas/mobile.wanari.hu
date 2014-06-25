@@ -38,7 +38,7 @@ startup.title.big=Startup alkalmazásfejlesztés
 startup.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
 startup.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
-startup.description.1=Van ez az ötleted, de fogalmad sincs, hogy kezdj neki a kivitelezésnek? Tudod már, hogy mi legyen az MVP-ben, de nincs akiről alhiszed, hogy össze is tudja rakni? Túl vagy az első fázison, és segítség kellene a technológiai oldalhoz? Keress minket!
+startup.description.1=Van ez az ötleted, de fogalmad sincs, hogy kezdj neki a kivitelezésnek? Tudod már, hogy mi legyen az MVP-ben, de nincs akiről elhiszed, hogy össze is tudja rakni? Túl vagy az első fázison, és segítség kellene a technológiai oldalhoz? Keress minket!
 startup.description.2=Jelenleg is több startuppal dolgozunk együtt technológiai partnerként. Van ahol mobil, van ahol web területen, és van olyan is, ahol mi vagyunk a “hacker”.
 
 
@@ -108,6 +108,7 @@ mail.message=Üzenet:
 mail.submit=Elküldöm az üzenetem
 mail.success=E-mail-jét továbbítottuk, köszönjük a megkeresést!
 mail.error=Kérem, javítsa a hibákat!
+mail.error.2=Hiba történt az e-mail elküldése közben.
 
 mail.validation.required=Kötelező
 mail.validation.email=Az e-mail cím formátuma nem megfelelő!

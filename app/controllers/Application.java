@@ -90,7 +90,8 @@ public class Application extends Controller {
 				return redirect(routes.Application.index());
 			}
 		} catch(Exception e) {
-			return badRequest();
+			flash("error", Messages.get("mail.error.2"));
+			return redirect(routes.Application.index());
 		}
 	}
 

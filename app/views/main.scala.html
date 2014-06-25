@@ -119,14 +119,12 @@ $(document).ready(function() {
                 validators: {
                	 callback: {
                      message: '@Messages("mail.validation.required")',
-                     callback: function(validator) {
-                         var selected_option = $('#mySelectBox').val();
-                         return selected_option != 'email';
+                     callback: function(value, validator) {
+                         var selected_option = $('#mySelectBox').val();                               
+                         return (selected_option == 'email' && value != '') || selected_option == 'phone';
                      }
                  },
-                    emailAddress: {
-                        message: '@Messages("mail.validation.email")'
-                    }
+                 emailAddress: {message: '@Messages("mail.validation.email")'}
                 }
             },
             message: {
@@ -140,9 +138,9 @@ $(document).ready(function() {
                 validators: {
                 	 callback: {
                          message: '@Messages("mail.validation.required")',
-                         callback: function(validator) {
-                             var selected_option = $('#mySelectBox').val();
-                             return selected_option != 'phone';
+                         callback: function(value, validator) {
+                             var selected_option = $('#mySelectBox').val();                                               
+                             return (selected_option == 'phone' && value != '') || selected_option == 'email';
                          }
                      }
                 }

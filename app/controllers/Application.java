@@ -48,48 +48,56 @@ public class Application extends Controller {
 	}
 
 	public static Result sendMail() {
-		Form<ContactForm> form = FORM.bindFromRequest();
-		if(!form.hasErrors()) {
-			MailerAPI mail = play.Play.application().plugin(MailerPlugin.class).email();
-			mail.setSubject("[WANARI] Jelentkezés");
-			mail.setRecipient(Play.application().configuration().getString("mail.to"));
-			mail.setBcc(Play.application().configuration().getString("mail.bcc"));
-			mail.setFrom(form.get().name + "<" + form.get().email + ">");
-			StringBuffer message = new StringBuffer();
-			message.append("\nTéma:\n");
-			message.append(form.get().topic);
-			message.append("\n\nCsatorna:\n");
-			message.append(form.get().channel);
-			message.append("\n\nÜzenet:\n");
-			message.append(form.get().message);
-			message.append("\n\n");
-			message.append("Feladó:\n");
-			message.append("Név: ");
-			message.append(form.get().name);
-			message.append("\n");
-			message.append("E-mail: ");
-			message.append(form.get().email);
-			if(!form.get().phonenumber.equals("")) {
+		try {
+			Form<ContactForm> form = FORM.bindFromRequest();
+			if(!form.hasErrors()) {
+				MailerAPI mail = play.Play.application().plugin(MailerPlugin.class).email();
+				mail.setSubject("[WANARI] Jelentkezés");
+				mail.setRecipient(Play.application().configuration().getString("mail.to"));
+				mail.setBcc(Play.application().configuration().getString("mail.bcc"));
+				if(!form.get().email.equals("")) {
+					mail.setFrom(form.get().name + "<" + form.get().email + ">");
+				} else {
+					mail.setFrom(form.get().name + "<" + "job@wanari.com" + ">");
+				}
+				StringBuffer message = new StringBuffer();
+				message.append("\nTéma:\n");
+				message.append(form.get().topic);
+				message.append("\n\nCsatorna:\n");
+				message.append(form.get().channel);
+				message.append("\n\nÜzenet:\n");
+				message.append(form.get().message);
+				message.append("\n\n");
+				message.append("Feladó:\n");
+				message.append("Név: ");
+				message.append(form.get().name);
+				if(!form.get().email.equals("")) {
+					message.append("\n");
+					message.append("E-mail: ");
+					message.append(form.get().email);
+				}
+				if(!form.get().phonenumber.equals("")) {
+					message.append("\n");
+					message.append("Telefonszám: ");
+					message.append(form.get().phonenumber);
+				}
 				message.append("\n");
-				message.append("Telefonszám: ");
-				message.append(form.get().phonenumber);
+				mail.send(message.toString());
+				flash("success", Messages.get("mail.success"));
+				return redirect(routes.Application.index());
+			} else {
+				flash("error", Messages.get("mail.error"));
+				return redirect(routes.Application.index());
 			}
-			message.append("\n");
-			mail.send(message.toString());
-			flash("success", Messages.get("mail.success"));
-			return redirect(routes.Application.index());
-		} else {
-			flash("error", Messages.get("mail.error"));
-			return redirect(routes.Application.index());
+		} catch(Exception e) {
+			return badRequest();
 		}
-
 	}
 
 	public static class ContactForm {
 		@Required
 		public String name;
 
-		@Required
 		public String email;
 
 		public String phonenumber;

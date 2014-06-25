@@ -30,16 +30,16 @@ general.title.big=Általános célú alkalmazásfejlesztés
 general.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
 general.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
-general.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
-general.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
+general.description.1=Sokan sokféle appot használunk. Lehet egy egyszerű  célalkalmazás vagy egy bonyolult üzleti célú mobilrendszer, egy alig létező termékötlet, vagy egy jól megtervezett app, kicsi de sürgős feladat, vagy egy nagyobb lélegzetvételű projekt.
+general.description.2=Ha fejlesztőpartnerre van szükség, forduljon hozzánk! Segítünk kitalálni, megtervezni, elkészíteni, publikálni.
 
 
 startup.title.big=Startup alkalmazásfejlesztés
 startup.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
 startup.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
-startup.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
-startup.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
+startup.description.1=Van ez az ötleted, de fogalmad sincs, hogy kezdj neki a kivitelezésnek? Tudod már, hogy mi legyen az MVP-ben, de nincs akiről alhiszed, hogy össze is tudja rakni? Túl vagy az első fázison, és segítség kellene a technológiai oldalhoz? Keress minket!
+startup.description.2=Jelenleg is több startuppal dolgozunk együtt technológiai partnerként. Van ahol mobil, van ahol web területen, és van olyan is, ahol mi vagyunk a “hacker”.
 
 
 advert.title.big=Reklám célú alkalmazásfejlesztés
@@ -54,8 +54,8 @@ enterprise.title.big=Vállalati mobil alkalmazásfejlesztés
 enterprise.title.small=Mobil alkalmazás fejlesztés Promóciós célra
 
 enterprise.description.meta=Mobil alkalmazás fejlesztés promóciós célra játékkal vagy információ átadással. IOS fejlesztő és Android fejlesztő tapasztalat. Mobil App fejlesztés az igények szerint.
-enterprise.description.1=A promóciós típusú alkalmazások elsődleges célja, hogy szórakoztassa vagy informálja a felhasználóját és közben minél több információt tud meg a vállalatról, annak szolgáltatásairól, termékeiről.
-enterprise.description.2=Az appoknak az előnye, hogy “játékosan” ismerkedik meg az ügyfél a céggel és meg is osztja ezeket a tapasztalatokat a saját ismerőseivel. Alkalmasak a hirdetésre - mérhető a letöltés, alkalmazáson belül adatlekérés (facebook integráció - facebook adatok elkérése).
+enterprise.description.1=Évek kérdése csupán, és mindannyian telefonon és tableten futó alkalmazásokat is használunk majd különböző vállalati folyamatainkhoz.
+enterprise.description.2=Ha van már ilyen rendszere, de nem elég használható, vagy még újabb megoldásokra van szükség, keressen minket! Ha még azt sem tudja, hol kellene nekikezdeni, hívjon minket még ma! Ne várja meg, amíg a versenytársak beelőznek, legyen Ön a gyorsabb!
 
 
 common.whyworkwithus.title=Miért érdemes velünk dolgozni?

@@ -18,7 +18,7 @@ index.page.2=Startup alkalmazásfejlesztés
 index.page.3=Reklám célú alkalmazásfejlesztés
 index.page.4=Vállalati mobil alkalmazásfejlesztés
 
-index.heading.1.title=Heading 2 norbi username test
+index.heading.1.title=Heading 2 vera mod test
 index.heading.1.description=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et risus vel dolor venenatis dictum. Aliquam blandit eros quis libero lobortis, ac fermentum mauris posuere. Duis molestie, neque in laoreet blandit, justo arcu tincidunt nulla, ut bibendum sapien massa at ipsum.
 index.heading.2.title=Heading 3
 index.heading.2.description=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et risus vel dolor venenatis dictum. Aliquam blandit eros quis libero lobortis, ac fermentum mauris posuere. Duis molestie, neque in laoreet blandit, justo arcu tincidunt nulla, ut bibendum sapien massa at ipsum.
@@ -113,4 +113,4 @@ mail.error.2=Hiba történt az e-mail elküldése közben.
 mail.validation.required=Kötelező
 mail.validation.email=Az e-mail cím formátuma nem megfelelő!
 
-footer=© 2000-2014 Wanari
+footer=© 2000-2015 Wanari
